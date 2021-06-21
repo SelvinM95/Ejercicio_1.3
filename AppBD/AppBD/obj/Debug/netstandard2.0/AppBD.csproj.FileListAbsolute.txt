@@ -1,0 +1,16 @@
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.csproj.AssemblyReference.cache
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.AssemblyInfoInputs.cache
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.AssemblyInfo.cs
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.csproj.CoreCompileInputs.cache
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.dll
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\ref\AppBD.dll
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\AppBD.pdb
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\bin\Debug\netstandard2.0\AppBD.deps.json
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\bin\Debug\netstandard2.0\AppBD.dll
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\bin\Debug\netstandard2.0\ref\AppBD.dll
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\bin\Debug\netstandard2.0\AppBD.pdb
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\Tablas.xaml.g.cs
+C:\Users\SelvinM95\source\repos\AppBD\AppBD\AppBD\obj\Debug\netstandard2.0\Detalles.xaml.g.cs

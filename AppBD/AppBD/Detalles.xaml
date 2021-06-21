@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppBD.Detalles">
+    <ContentPage.Content>
+        <AbsoluteLayout Margin="5,0,5,5">
+            <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="30,0,30,0" >
+
+                <Entry x:Name="id" Text="{Binding id}" IsVisible="False"/>
+
+                <Label Text="Nombre" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <Entry Text="{Binding nombre}" x:Name="nombre" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Apellido" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <Entry Text="{Binding apellidos}" x:Name="apellido" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand" />
+
+                <Label Text="Edad" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <Entry Text="{Binding edad}" Keyboard="Numeric"  x:Name="edad" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Correo Electronico" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <Entry Text="{Binding correo}" Keyboard="Email" x:Name="correo" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Dirección" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <Entry Text="{Binding direccion}" Keyboard="Email" x:Name="direccion" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Label Text="Fecha Nacimiento" FontSize="Title" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+                <DatePicker x:Name="FNacimiento" Date="{Binding fechanac}" FlexLayout.AlignSelf="Stretch" HorizontalOptions="CenterAndExpand"/>
+
+                <Button x:Name="userUpdate" Clicked="userUpdate_Clicked"
+                    FontSize="Medium" TextColor="White" 
+                    BorderColor="Black" BackgroundColor="#00b33c"  
+                    CornerRadius="5" FlexLayout.AlignSelf="Stretch"  
+                    HorizontalOptions="CenterAndExpand" Text="Actualizar"></Button>
+
+                <Button x:Name="userDelete" Clicked="userDelete_Clicked" 
+                    FontSize="Medium" TextColor="White"
+                    BorderColor="Black" BackgroundColor="#FF0000" 
+                    CornerRadius="5" FlexLayout.AlignSelf="Stretch" 
+                    HorizontalOptions="CenterAndExpand" Text="Eliminar"></Button>
+
+            </FlexLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
